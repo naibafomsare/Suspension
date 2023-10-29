@@ -1,3 +1,5 @@
+# Key ideas on how the cryogenic suspension works
+
 1)	flexures in compression can be made thinner, i.e. softer and short i.e. good thermal conductivity, and allow mechanical assembly with braze without introducing additional thermal noise
 2) 	fat suspension beams allow for longer pendulum with good thermal conductivity 
 3)	with counterweight the suspension beams become inertially massless for horizontal attenuation (data from Fabian)
