@@ -23,7 +23,7 @@ The following task is, therefore, to design an *electrostatic* actuation system 
 4. How much voltage will be needed?
 5. This system will be at the bottom of an approximately 17 metres vibration isolation tower, and the volage driver will likely be installed at the top outside of the chamber. What's the effect of the capacitance to ground of such long cables?
 6. The electrodes on the beams will likely be floating, whereas the ones on the actuator units will be kept at a voltage. How does the electrostatic actuation works in this case? I think they do this type of actuation in LIGO and there should be a document in the DCC explaining the situation.
-7. Do the floating electrodes need to be discharged somehow before using them?
+7. Do the floating electrodes need to be discharged (to a certain extent) somehow before using them?
 8. In case it's not possible to get rid of residual charges on the floating electrodes, is there a way to get rid of the stray forces they generate? I think there is, but I need to check this. This is a task for Fabián.
 
 The final question to answer is whether is possible to build the required electrostatic actuator. For example, in case the flexures are too stiff, the required force might be too large to be produced by a reasonable actuator. If that is the case, we need to consider alternatives.
