@@ -16,4 +16,8 @@ The steps to follow are:
    2. Use different force magnitudes until the actuation points move the required distance $d_{max}$. Let's call this force $F_{max}$.
    3. Create a plot of force versus displacement.
 
-The force $F_{max}$ is the maximum force that the actuation system must deliver. The following task is, therefore, deliver 
+The following task is, therefore, to design an *electrostatic* actuation system capable of delivering a maximum force of $F_{max}$. Consider then a parallel plate capacitor. The questions that must be answered are the following:
+1. How close the parallel plates must be from each other?
+2. What material should be used? Take into account that the system will be cryogenic and the electrode on the beams should not peel off due to the thermal cycle in case they are deposited films.
+3. What's the required minimum thickness of the electrodes?
+4. The electrodes 
