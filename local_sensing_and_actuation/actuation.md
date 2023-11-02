@@ -20,6 +20,14 @@ The following task is, therefore, to design an *electrostatic* actuation system 
 1. How close the parallel plates must be from each other? This must be a reasonable gap.
 2. What material should be used? Take into account that the system will be cryogenic and the electrodes on the beams should not peel off due to the thermal cycle in case they are deposited films.
 3. What's the required minimum thickness of the electrodes?
-4. The electrodes on the beams will likely be floating, whereas the ones on the actuator units will be kept at a voltage. How does the electrostatic actuation works in this case? I think they do this type of actuation in LIGO and there should be a document in the DCC explaining the situation.
-5. Do the floating electrodes need to be discharged somehow before using them?
-6. In case it's not possible to get rid of residual charges on the floating electrodes, is there a way to get rid of the stray forces they generate? I think there is, but I need corrobo
+4. How much voltage will be needed?
+5. This system will be at the bottom of an approximately 17 metres vibration isolation tower, and the volage driver will likely be installed at the top outside of the chamber. What's the effect of the capacitance to ground of such long cables?
+6. The electrodes on the beams will likely be floating, whereas the ones on the actuator units will be kept at a voltage. How does the electrostatic actuation works in this case? I think they do this type of actuation in LIGO and there should be a document in the DCC explaining the situation.
+7. Do the floating electrodes need to be discharged somehow before using them?
+8. In case it's not possible to get rid of residual charges on the floating electrodes, is there a way to get rid of the stray forces they generate? I think there is, but I need to check this. This is a task for Fabián.
+
+The final question to answer is whether is possible to build the required electrostatic actuator. For example, in case the flexures are too stiff, the required force might be too large to be produced by a reasonable actuator. If that is the case, we need to consider alternatives.
+
+# Sensing
+
+I'll continue writing here later...
