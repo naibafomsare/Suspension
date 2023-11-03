@@ -1,8 +1,8 @@
 # Actuation
 
 The goal of the exercise is
-1. To calculate the required actuation on the upper ends of the suspension beams in order to allow the lock acquisition of the main interferometer.
-2. Design a system capable delivering such a required actuation.
+1. To calculate the required actuation force on the upper ends of the suspension beams in order to allow the lock acquisition of the main interferometer.
+2. Design a system capable delivering such a required actuation force.
 
 The steps to follow are:
 
@@ -20,7 +20,7 @@ The following task is, therefore, to design an *electrostatic* actuation system 
 1. How close the parallel plates must be from each other? This must be a reasonable gap.
 2. What material should be used? Take into account that the system will be cryogenic and the electrodes on the beams should not peel off due to the thermal cycle in case they are deposited films.
 3. What's the required minimum thickness of the electrodes?
-4. How much voltage will be needed?
+4. How much voltage will be needed to produce such a force? The amplitude should be compatible with the physical restrictions (e.g. size), and the digital to analog converter (DAC) should not saturate (we don't know what type of ADC will be used).  
 5. This system will be at the bottom of an approximately 17 metres vibration isolation tower, and the volage driver will likely be installed at the top outside of the chamber. What's the effect of the capacitance to ground of such long cables?
 6. The electrodes on the beams will likely be floating, whereas the ones on the actuator units will be kept at a voltage. How does the electrostatic actuation works in this case? I think they do this type of actuation in LIGO and there should be a document in the DCC explaining the situation.
 7. Do the floating electrodes need to be discharged (to a certain extent) somehow before using them?
